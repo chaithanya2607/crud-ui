@@ -10,12 +10,12 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link fw-bold text-light fs-5" aria-current="page" to="/">Home</Link>
+                                <Link className="nav-link fw-bold text-light fs-5" aria-current="page" to="/">HOME</Link>
                             </li>
                         </ul>
 
                     </div>
-                    <Link className="btn btn-outline-light" to="/create-user">Add User</Link>
+                    <Link className="btn btn-outline-light" to="/create-user">ADD USER</Link>
                 </div>
             </nav>
         </div>
